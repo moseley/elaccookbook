@@ -4,14 +4,14 @@ maintainer_email 'jeremymoseley@me.com'
 license 'all_rights'
 description 'Installs/Configures Wordpress'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version '0.1.0'
+version '0.1.1'
 
 %w{ php openssl }.each do |cb|
   depends cb
 end
 
 depends "apache2", ">= 2.0.0"
-depends "php-fpm", "~> 0.6.10"
+depends "php", "~> 2.2.1"
 
 %w{ centos redhat }.each do |os|
   supports os
