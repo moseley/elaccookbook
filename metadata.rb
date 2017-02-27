@@ -10,8 +10,8 @@ version '0.1.1'
   depends cb
 end
 
-depends "apache2", ">= 2.0.0"
-depends "php", "~> 2.2.1"
+cookbook "apache2", ">= 2.0.0"
+cookbook "php", "~> 2.2.1"
 
 %w{ centos redhat }.each do |os|
   supports os
