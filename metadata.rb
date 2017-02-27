@@ -1,0 +1,7 @@
+name 'elaccookbook'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures elaccookbook'
+long_description 'Installs/Configures elaccookbook'
+version '0.1.0'
